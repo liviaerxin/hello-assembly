@@ -1,6 +1,6 @@
 .data
     message: .ascii  "Hello World!\n"
-    message_size = . - message
+    message_size = . - message      // current address - message address
     my_variable:    .quad 13
 
 .text
